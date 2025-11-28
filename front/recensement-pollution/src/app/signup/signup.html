@@ -35,7 +35,7 @@
         <label for="email" class="lg:col-12 lg:text-center">Email*</label>
         <input pInputText id="email" placeholder="Votre email" formControlName="email" class="col-12"/>
         @if (formSignup.get('email')?.invalid && submitted) {
-            <p-message severity="error" variant="simple" size="small" class="col-12">Email invlaide</p-message>
+            <p-message severity="error" variant="simple" size="small" class="col-12">Email invalide</p-message>
         }
     </div>
 
